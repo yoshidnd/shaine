@@ -15,7 +15,7 @@
             justify-content: center;
             align-items: flex-start;
             min-height: 100vh;
-            background-image: url('arnis.jpg'); /* background */
+            background-image: url('peyt.png'); /* background */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -31,11 +31,25 @@
             width: 90%;
             max-width: 400px;
             text-align: center;
-            background: rgba(255, 231, 223, 0.81);
+            background: rgba(255, 231, 223, 0.483);
             border-radius: 15px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(238, 238, 238, 0.81);
+            border: 1px solid rgba(241, 6, 151, 0.81);
+            margin-bottom: 30px;
+        }
+
+        .watermark {
+            text-align: center;
+            font-size: 12px;
+            color: #6b0c36;
+            background-color: rgba(255, 255, 255, 0.5); /* light background */
+            padding: 5px 12px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-style: italic;
+            display: inline-block;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
         .profile-header {
@@ -92,7 +106,7 @@
             display: flex;
             align-items: center;
             background-color: rgba(60, 60, 60, 0.7);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(233, 14, 142, 0.611);
             border-radius: 10px;
             padding: 12px 20px;
             margin: 15px auto;
@@ -124,7 +138,7 @@
       
         .music-card {
             background-color: rgba(60, 60, 60, 0.7);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(233, 14, 142, 0.611);
             border-radius: 10px;
             padding: 12px 20px;
             margin: 15px auto;
@@ -415,23 +429,23 @@
 
     <div class="container">
         <div class="profile-header">
-            <img src="sh.jpg" alt="Jhales' Profile Picture" class="profile-pic">
-            <div class="profile-name">Shaine</div>
-            <div class="profile-title">Arnis Chairman | Student Athlete</div>
+            <img src="faith.png" alt="Jhales' Profile Picture" class="profile-pic">
+            <div class="profile-name">Faith Da Silva</div>
+            <div class="profile-title">| Artist |</div>
         </div>
 
-        <div class="social-icons">
-            <a href="https://www.instagram.com/shaine_delfin/"><img src="ig.png" alt="Instagram Icon" class="social-icon"></a>
-            <a href="https://www.facebook.com/shaine.delfin.pausanos"><img src="fb.png" alt="Facebook Icon" class="social-icon"></a>
-            <a href="https://www.tiktok.com/@jailzxn?_r=1&_d=secCgYIASAHKAESPgo87HCNuf7OX0DpQhHIAMpjZ2elp8E%2BlTFvm3k%2FYDn9Vxf6g66zrP6u34%2BX8XIWrKrhgX2Fy0ta9uYu5ELZGgA%3D&_svg=1&checksum=b8089ffae2894999996c49a966d2d46722301d15d6e38f5d8543afa9e09c6ff843&sec_uid=MS4wLjABAAAA1volJ8Mg7CIS_nHlWqvdSmGy2R8sHfDGIvbnlYHu-KcQVYZVqbnRT1ZXD63ogQlV&sec_user_id=MS4wLjABAAAA1volJ8Mg7CIS_nHlWqvdSmGy2R8sHfDGIvbnlYHu-KcQVYZVqbnRT1ZXD63ogQlV&share_app_id=1180&share_author_id=6804769538170110977&share_link_id=6A5A1A88-ABC9-43E4-B96D-19A61C94E7E5&sharer_language=en&social_share_type=4&source=h5_t&timestamp=1747856026&tt_from=copy&u_code=dbbi54hj0ac9l1&ug_btm=b8727%2Cb0&user_id=6804769538170110977&utm_campaign=client_share&utm_medium=ios&utm_source=copy"><img src="tiktok.png" alt="TikTok Icon" class="social-icon"></a>
-            <a href="https://www.youtube.com/@Jeylzu"><img src="yt.png" alt="YouTube Icon" class="social-icon"></a>
-        </div>
+        
 
-        <a href="https://ptapme.vercel.app/" class="link-button">
-            <img src="logo.png" alt="Book Icon"> Tap Members
+        <a href="https://www.tiktok.com/@faithdasilva29?_t=ZS-8wcukxmzStE&_r=1" class="link-button">
+            <img src="tiktok.png" alt="Book Icon"> Tiktok
         </a>
-        <a href="https://jhales.vercel.app/" class="link-button">
-            <img src="website.png" alt="Website Icon"> Official Website
+
+        <a href="https://www.facebook.com/share/14vswKkaLY/?mibextid=wwXIfr" class="link-button">
+            <img src="fb.png" alt="Website Icon"> Facebook
+        </a>
+
+        <a href="https://www.instagram.com/faithdasilva_?igsh=MTcyaGNwZTduZ20yZQ==" class="link-button">
+            <img src="ig.png" alt="Website Icon"> Instagram
         </a>
 
         <div class="music-card" data-bs-toggle="modal" data-bs-target="#musicModal">
@@ -444,6 +458,11 @@
             <div class="play-button">
                 <i class="bi bi-play-circle"></i>
             </div>
+        </div>
+
+        
+<div class="watermark">
+            &copy; 2025 Sofia & Jhales 
         </div>
     </div>
 
@@ -463,16 +482,14 @@
         </div>
     </div>
 
-    
-
 
     <div id="qrModal" class="qr-modal-overlay">
         <div class="qr-modal-content">
             <span class="qr-modal-close" onclick="closeQrModal()">×</span>
-            <img src="sh.jpg" alt="Jhales' Profile Picture" class="qr-modal-profile-pic">
-            <div class="qr-modal-name">Shaine</div>
+            <img src="faith.png" alt="Jhales' Profile Picture" class="qr-modal-profile-pic">
+            <div class="qr-modal-name">Faith Da Silva</div>
             <img src="qr.png" alt="QR Code" class="qr-modal-qr-code">
-            <a href="qr.png" download="qr.png" class="qr-modal-download-link">Scan or download QR code</a>
+            <a href="qr.png" download="qr-modal-close.png" class="qr-modal-download-link">Scan or download QR code</a>
             <button class="qr-modal-copy-button" onclick="copyPageUrl()">Copy Page URL</button>
         </div>
     </div>
